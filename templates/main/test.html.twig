@@ -1,6 +1,9 @@
 {% extends 'base.html.twig' %}
 {% block body %}
     <h1>Test me!</h1>
+
+    <div>{{ mySerie.title }}</div>
+
     <div>
         <div>{{ "now" | date('Y') }}</div>
         <div>{{ "+1 year" | date }}</div>
